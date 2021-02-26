@@ -14,6 +14,6 @@ public class NewActivity extends AppCompatActivity {
         setContentView(R.layout.activity_new);
 
         TextView textView = findViewById(R.id.textView);
-        textView.setText(R.string.map_text);
+        textView.setText(R.string.janvi_here);
     }
 }
