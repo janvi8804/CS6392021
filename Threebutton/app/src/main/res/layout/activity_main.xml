@@ -4,29 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/dialog_positive_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Janvi"
         android:background="#FFEB3B"
-        />
+        android:text="Janvi" />
 
     <Button
         android:id="@+id/new_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ramani"
         android:background="#8BC34A"
-        />
+        android:text="Ramani" />
 
     <Button
         android:id="@+id/dialog_negative_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CS"
         android:background="#F44336"
-        />
+        android:text="CS" />
 </LinearLayout>

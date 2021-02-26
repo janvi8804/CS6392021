@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MenuProject</string>
+    <string name="sms_text">Sms</string>
+    <string name="phone_text">phone</string>
+    <string name="web_text">web</string>
+    <string name="map_text">map</string>
+    <string name="share_text">share</string>
+    <string name="newactivity_text">new activity</string>
+    <string name="sms_number">5513127470</string>
+    <string name="sms_message">JANVI RAMANI</string>
+    <string name="phone_no">551321767</string>
+    <string name="web_url">https://www.youtube.com/</string>
+    <string name="open_location">SURAT,GUJARAT,INDIA</string>
+    <string name="message_title">SHARED LOVE</string>
+    <string name="message_body">just sharing love</string>
+    <string name="new_act">NEW ACTIVITY</string>
+    <string name="janvi_here">Janvi Here</string>
+    <string name="text_help">help me out</string>
+
+    <string name="help_mee">Help MEE</string>
+    <string name="help_me2">help_me2</string>
+    <string name="settings">settings</string>
+    <string name="help">help</string>
+
+
+</resources>
