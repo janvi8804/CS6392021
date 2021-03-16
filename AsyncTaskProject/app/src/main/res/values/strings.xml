@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AsyncTaskProject</string>
+    <string name="ready_string"> String is Ready </string>
+</resources>
