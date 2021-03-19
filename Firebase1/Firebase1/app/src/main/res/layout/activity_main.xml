@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/add_string"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Add String" />
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/save_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"/>
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/b_get_save_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Saved Text"/>
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/textview"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Saved Text"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/b_chhose_img"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose Image"/>
+        <Button
+            android:id="@+id/b_get_image"
+            android:visibility="gone"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="get Image"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/set_img"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@color/purple_200"
+            />
+        <ImageView
+            android:id="@+id/get_img"
+            android:visibility="gone"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@color/purple_200"
+            />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/b_save_img"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save Image"/>
+
+</LinearLayout>
